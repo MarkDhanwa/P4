@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- DEVELOPER: Mark Dhanwa, IS117-001, Fall 2023 -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">MD</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="capstoneproject.html">Capstone Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="education.html">Education</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                |||
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="index.html">Home</a>
+                                <a class="dropdown-item" href="capstoneproject.html">Capstone Project</a>
+                                <a class="dropdown-item" href="resume.html">Resume</a>
+                                <a class="dropdown-item" href="education.html">Education</a>
+								<a class="dropdown-item" href="contact.html">Contact</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        
+		<div class="container mt-3">
+  <h2>Capstone Project</h2>
+  <div class="card" style="width:500px">
+    <img class="card-img-top" src="images/IMG_1234.jpg" alt="Picture of Project">
+    <div class="card-body">
+      <h4 class="card-title">KeyFit</h4>
+      <p class="card-text">For our Capstone Project, we explored various everyday problems that we or others experience. 
+	  Through research we realized that Parkinson’s Disease and Essential Tremors is a major problem that many people experience. 
+	  People who suffer from both conditions complained about having difficulties unlocking doors. After conducting extensive research, 
+	  we found products that focused on different ways of unlocking doors for example, using a combination code or an app from on a smartphone. 
+	  However, these products are expensive and often limited to specific door types. These products somewhat alleviate the challenges faced by 
+	  individuals afflicted with Parkinson’s and Essential Tremors, but there are improvements needed. Our goal is to create a product that is cost 
+	  efficient and enable the users to effortlessly insert their keys in keyholes without having concern about the  shaking  interfering with the 
+	  key fitting or causing them to accidentally drop the keys. We used the Engineering Design Process to guide us in researching, designing and 
+	  developing a prototype that is functionable.</p>
+    </div>
+  </div>	
+        </div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Mark Dhanwa, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

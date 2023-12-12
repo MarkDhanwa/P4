@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- DEVELOPER: Mark Dhanwa, IS117-001, Fall 2023 -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">MD</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="capstoneproject.html">Capstone Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="education.html">Education</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                |||
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="index.html">Home</a>
+                                <a class="dropdown-item" href="capstoneproject.html">Capstone Project</a>
+                                <a class="dropdown-item" href="resume.html">Resume</a>
+                                <a class="dropdown-item" href="education.html">Education</a>
+								<a class="dropdown-item" href="contact.html">Contact</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        
+		<div class="container mt-3">
+  <h2>Resume</h2>
+  <div class="card" style="width:500px">
+    <img class="card-img-top" src="images/Screenshot 2023-12-12 132700.jpg" alt="Picture of Resume">
+    <div class="card-body">
+      <h4 class="card-title">Quick Info</h4>
+      <p class="card-text">I volunteered at Orange Municipal Court where I assisted in filings, prepared calendars, assisted the judges and/or prosecutors for their 
+	  court sessions and assisted the court administrators and court directors. My skills consists of cleaning, organization, communication, teamwork, marketing, adaptability, and writing. 
+	  </p>
+    </div>
+  </div>	
+        </div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Mark Dhanwa, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
